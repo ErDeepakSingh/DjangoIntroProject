@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Login Form</title>
+         {% load staticfiles %}
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    </head>
+
+
+    <body class="pagebody">
+
+    <img src="{% static 'imgs/image2.jpg' %}" alt="My image"/>
+        <div class="form-div"><br/>
+            <h1>Login Here</h1><br/>
+        <form method="GET" action="SignUp.html">         <br/>
+            <input type="text" placeholder="Username"><br/><br/>
+            <input type="password" placeholder="Password"><br/><br/>
+            <input type="submit" value="Login"><br/><br/><br/>
+            <p>Forgott Password?<a href="ForgotPassword.html" >&emsp;Click here</a></p>
+            <p>If you do not have an account yet ? &emsp; <a href="SignUp.html" >Sign Up</a></p>
+        </form>
+        </div>
+    </body>
+
+</html>

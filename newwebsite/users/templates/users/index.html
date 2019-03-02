@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    <meta charset="UTF-8">
+    <title>Users</title>
+
+</head>
+<body>
+<h1>User Page</h1>
+{% block content %}
+<a href="/users/login/" >Click Here to Login</a>
+{% endblock %}
+
+</body>
+</html>
